@@ -1,0 +1,62 @@
+
+a:visited{
+    color: rgb(42, 186, 13);
+}
+a:hover{
+
+color: rgb(255, 0, 0);
+
+}
+a:active{
+    color: black;
+}
+/* p:first-child {
+    background-color: aqua;
+  }
+  p:nth-child(even){
+background-color: black;
+
+  } */
+/* descendant selector */
+  div p {
+background-color: aqua;
+  }
+  /* child selector */
+div > p{
+background-color: red;
+}
+/* adjacent selector */
+div + p{
+    background-color: brown;
+
+}
+/* general sibling selector */
+div ~ p{
+background-color: yellow;
+
+}
+.gridcontainer{
+display: grid;
+grid-template-columns: 100px 50px 100px;
+grid-template-rows: 50px 50px 50px;
+gap: 10px;
+}
+.item{
+background-color: aqua;
+border: 2px solid black;
+text-align: center;
+border-radius: 5px;
+}
+.one{
+    grid-column: 1/4;
+}
+.three{
+    grid-column: 3/4;
+}
+.four{
+    grid-column: 1/4;
+}
+
+
+
+
